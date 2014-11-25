@@ -1,8 +1,11 @@
 <?php
 header("Content-type: text/html;charset=utf-8");
 
+// прайс
 include "class/Price.class.php";
+// корзина
 include "class/Cart.class.php";
+// условия формирования цен
 include "class/Condition.class.php";
 
 $cart = new Cart();
